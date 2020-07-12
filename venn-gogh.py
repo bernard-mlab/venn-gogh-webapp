@@ -2,9 +2,19 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from matplotlib_venn import venn2
 
+'''
+# Venn-Gogh
+## 2 Group Venn Diagram
 
-st.title('Venn-Gogh')
-st.header('2 Group Venn Diagram')
+This project came about while I was trying to look for a venn diagram generator online.
+The ones that I came across either does not scale according to the group size, or I 
+have to draw them out manually.
+
+"Venn-Gogh" aims to help you produce a scaled venn diagram with minimal effort & coding, 
+which you can then save the chart to your presentation or document. 
+
+If you like this awesome web app, you can consider "[buying me a coffee](https://www.buymeacoffee.com/bernard)".
+'''
 
 # Group1 vs Group2 (input here)
 
