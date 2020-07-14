@@ -19,11 +19,11 @@ If you like this awesome web app, you can consider "[buying me a coffee](https:/
 # Group1 vs Group2 (input here)
 st.sidebar.subheader(body="Input Parameters")
 
-chart_title = st.sidebar.text_input(label='Chart Title', value="Chart Title (50chars)", max_chars=50)
+chart_title = st.sidebar.text_input(label='Chart Title', value="Chart Title", max_chars=50)
 
-group1_label = st.sidebar.text_input(label='Group 1 Label', value="Group 1 Name (30chars)", max_chars=30)
+group1_label = st.sidebar.text_input(label='Group 1 Label', value="Group 1 Name", max_chars=30)
 group1 = st.sidebar.number_input(label='Group 1 Size', value=100, format='%g')
-group2_label = st.sidebar.text_input(label='Group 2 Label', value="Group 2 Name (30chars)", max_chars=30)
+group2_label = st.sidebar.text_input(label='Group 2 Label', value="Group 2 Name", max_chars=30)
 group2 = st.sidebar.number_input(label='Group 2 Size', value=100)
 overlap = st.sidebar.number_input(label='Overlap Size', value=25)
 
