@@ -17,6 +17,7 @@ If you like this awesome web app, you can consider "[buying me a coffee](https:/
 '''
 
 # Group1 vs Group2 (input here)
+st.sidebar.subheader(body="Input Parameters")
 
 chart_title = st.sidebar.text_input(label='Chart Title', value="Input Chart Title (50chars)", max_chars=50)
 
