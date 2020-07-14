@@ -11,7 +11,7 @@ The ones that I came across either does not scale according to the group size, o
 have to draw them out manually.
 
 "Venn-Gogh" aims to help you produce a scaled venn diagram with minimal effort & coding, 
-which you can then save the chart to your presentation or document. 
+and you can then save the chart to your presentation or document. 
 
 If you like this awesome web app, you can consider "[buying me a coffee](https://www.buymeacoffee.com/bernard)".
 '''
@@ -19,7 +19,7 @@ If you like this awesome web app, you can consider "[buying me a coffee](https:/
 # Group1 vs Group2 (input here)
 st.sidebar.subheader(body="Input Parameters")
 
-chart_title = st.sidebar.text_input(label='Chart Title', value="Input Chart Title (50chars)", max_chars=50)
+chart_title = st.sidebar.text_input(label='Chart Title', value="Chart Title (50chars)", max_chars=50)
 
 group1_label = st.sidebar.text_input(label='Group 1 Label', value="Group 1 Name (30chars)", max_chars=30)
 group1 = st.sidebar.number_input(label='Group 1 Size', value=100, format='%g')
